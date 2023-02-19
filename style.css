@@ -1,3 +1,33 @@
-.h1{
-    font-style:italic;
+section{
+border: 1px solid red;
 }
+ 
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    border:1px solid red;
+  }
+  
+  .header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    /* выше установили ограничения для секции */
+    border:1px solid red;
+  }
+  
+  /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+  .header__square-pic {
+    height: 568px;
+    width: 568px;
+  }
+  
+  /* и элемента с модификатором вида ключ-значение */
+  .table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+  }
