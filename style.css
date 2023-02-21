@@ -61,9 +61,7 @@
     height:608px;
     bottom:0px;
     z-index:1;
-    object-fit:fill;
-    object-position:center;
-       border:1px solid red;
+      border:1px solid red;
         }
    .header__square-pic {
       /*синий квадрат за мальчиком*/
@@ -191,11 +189,61 @@ border:1px solid red;
   font-weight: normal;
   padding-top:20px;
  }
+ .feynman{
+  /*общий блок фейнман*/
+  position:relative;
+  margin-top: 100px;
+  padding:0;
+  height: 890px;
+  background-color: #f2f2f2;
+  border:1px solid red;
+  z-index:-2;
+}
+.feynman__feynman_photo{
+  position:absolute;
+  left:0px;
+  width:867px;
+  height:637px;
+  bottom:0px;
+  z-index:-1;
+  border:1px solid red;
+}
+.feynman__title{
+   /*заголовок Метод Фейнмана*/
+  width:648px;
+  margin:auto;
+  margin-top: 100px;
+  text-align: center;
+  line-height:1.15;
+  font-size:120px;
+  font-weight:600;
+  border:1px solid red;
+}
+.feynman__subtitle{
+  /*подзаголовок Метод Фейнмана - выучить и не забыть*/
+  text-align:center;
+ margin:auto;
+ margin-top:70px;
+ line-height:51px;
+  font-size:36px;
+  font-weight:normal;
+ border:1px solid red;
+}
+.feynman__link{
+  position:absolute;
+  top:50%;
+  right:48px;
+  line-height:51px;
+  font-size:36px;
+  font-weight:normal;
+  color:#2f80ed;
+
+}
   /* и элемента с модификатором вида ключ-значение */
   .table__cell_theme_dark {
     width: 200px;
     color: white;
     margin-right: 0;
     margin-top: 80px;
-  }
+   }
 
