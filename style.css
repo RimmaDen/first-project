@@ -10,15 +10,14 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    /* выше установили ограничения для секции */
     position: relative;
-    display:block;
-    /*все, кроме заголовка, имеет абсолютное позиционирование, а значит вырвано из потока*/
+    margin: 0;
+    padding:0;
     background-color: #f2f2f2;
     border:1px solid red;
   }
   .logo_place_header{
-    display:flex;
+    /*яндекс-практикум*/
     position:absolute;
     top: 30px;
     left: 64px;
@@ -29,22 +28,24 @@
     
   }
   .header__title{
-    display:flex;
-    align-items: center;
-    width: 730px;
+    /*научиться учиться*/
+   display:flex;
+  margin-top:270px;
+   width: 730px;
    font-weight: 600;
    line-height: 96px;
    font-size: 102px;
-    margin-left: 64px;
-    z-index:1;
-    border:1px solid red;
+   margin-left: 64px;
+   z-index:1;
+   border:1px solid red;
   }
   .header__subtitle{
+     /*какие современные и эффективные подходы к обучению вы можете использовать? ссылка*/
     position:absolute;
     width: 338px;
     bottom:30px;
     left:64px;
-    font-weight:auto;
+    font-weight:normal;
    line-height:25px;
    font-size: 18px;
     align-items:cetner;
@@ -52,29 +53,144 @@
     border:1px solid red;
   }
   .header__main-illustration{
+    /*картинка с мальчиком*/
     position:absolute;
-    display:flex;
-    padding-left:0;
-    margin-left:0;
+     margin:0;
     right:0px;
     width:765px;
     height:608px;
     bottom:0px;
     z-index:1;
-     border:1px solid red;
+    object-fit:fill;
+    object-position:center;
+       border:1px solid red;
         }
-  /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-  .header__square-pic {
+   .header__square-pic {
+      /*синий квадрат за мальчиком*/
     height: 568px;
     width: 568px;
     position:absolute;
-    display:flex;
     top:64px;
     right:0px;
     background-color: #2f80ed;
      border:1px solid red;
   }
-  
+  .description{
+      /*блок проблемы учебы*/
+    margin-top:100px;
+    margin-bottom:100px;
+    display:flex;
+    justify-content: center;
+    border:1px solid red;
+  }
+  .two-columns{
+    display:flex;
+    width:80%;
+    min-width:784px;
+    justify-content:space-between;
+    border:1px solid red;
+     }
+  .two-columns__brief{
+    /*заголовок главные проблемы в обучении, слева, синий текст*/
+  padding-top:o;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  width: 175px;
+  color:#2f80ed;
+  margin:0;
+  }
+  .two-columns__main-text{
+    /*блок для всего текста внутри*/
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin:0;
+    padding:0;
+  }
+  .two-columns__paragraph1{
+     /*блок c длинным текстом о том, что по мнению автора никого не учат учиться*/
+     padding-top:0;
+     margin-top:0px;
+     margin-bottom: 30px;
+     
+  }
+  .two-columns__paragraph2{
+    /*блок c выводом*/
+    margin-bottom:30px;
+
+ }
+  .two-columns__paragraph3{
+    /*блок c анонсом техник*/
+     margin-bottom:0;
+     padding-bottom:0;
+ }
+ .two-columns__span-accent{
+  line-height: 34px;
+    font-size: 24px;
+    font-weight: 600;
+ }
+ .digits{
+  margin-top:100px;
+  margin-bottom:100px;
+  border:1px solid red;
+ }
+ .section-title{
+  /*заголовок таблицы Цифры и факты*/
+  width:60%;
+  margin:auto;
+  padding:0;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  border:1px solid red;
+ }
+.section-subtitle{
+    /*подзаголовок таблицы Цифры и факты, про учебу и мозг*/
+  width:60%;
+  margin:auto;
+  margin-top:20px;
+  padding:0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  border:1px solid red;
+
+}
+ .table{
+  display:flex;
+  margin:0 auto;
+  width:1100px;
+  padding-bottom:0;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  border:1px solid red;
+ }
+ .table__cell{
+width:250px;
+margin-top:60px;
+margin-bottom:0;
+padding-top:0;
+border:1px solid red;
+ }
+ .table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin:0;
+  padding:0;
+ }
+ .table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top:20px;
+ }
   /* и элемента с модификатором вида ключ-значение */
   .table__cell_theme_dark {
     width: 200px;
@@ -82,3 +198,4 @@
     margin-right: 0;
     margin-top: 80px;
   }
+
