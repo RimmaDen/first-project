@@ -158,7 +158,6 @@
   font-weight: normal;
   text-align: center;
   border:1px solid red;
-
 }
  .table{
   display:flex;
@@ -237,13 +236,78 @@ border:1px solid red;
   font-size:36px;
   font-weight:normal;
   color:#2f80ed;
-
 }
-  /* и элемента с модификатором вида ключ-значение */
-  .table__cell_theme_dark {
+     .kaufman{
+       /* блок с принципами обучения от Кауфмана */
+  position:relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  border:1px solid red;
+  background-color: #000000;
+  overflow: hidden;
+  color:white;
+  z-index:-2;
+   }
+  .section-title_theme_dark{
+  /*заголовок таблицы Принципы обучения от Кауфмана*/
+  width:60%;
+  margin:auto;
+  padding:0;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  border:1px solid red;
+   }
+ .section-subtitle_theme_dark{
+  /*подзаголовок таблицы Принципы обучения от Кауфмана*/
+width:60%;
+margin:auto;
+margin-top:20px;
+padding:0;
+line-height: 34px;
+font-size: 24px;
+font-weight: normal;
+text-align: center;
+border:1px solid red;
+}
+.table_theme_dark{
+   /*таблица c Принципами обучения от Кауфмана*/
+  display:flex;
+  margin:0 auto;
+  width:1100px;
+  padding-bottom:0;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  border:1px solid red;
+ }
+   .table__cell_theme_dark { 
+    /* ячейка в блоке Кауфман с принципами обучения */
     width: 200px;
-    color: white;
     margin-right: 0;
     margin-top: 80px;
+    border:1px solid red;
+  }
+  .table__heading_theme_dark{
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+    margin:0;
+    padding:0;
    }
-
+   .table__text_theme_dark{
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top:20px;
+   }
+   .kaufman__triangle{
+    position:absolute;
+    z-index: -1;
+    right:-210px;
+    top:0;
+    width:877px;
+    height:877px;
+    border:1px solid red;
+    margin:0;
+   }
