@@ -4,7 +4,6 @@
     max-width: 1600px;
     margin: 0 auto;
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    border:1px solid red;
        }
   .header{
     height: 100vh;
@@ -14,32 +13,28 @@
     margin: 0;
     padding:0;
     background-color: #f2f2f2;
-    border:1px solid red;
+    z-index:1;
   }
   .logo_place_header{
-    /*яндекс-практикум*/
     position:absolute;
     top: 30px;
     left: 64px;
     height: 32px;
     width: 228px;
     z-index:1;
-    border:1px solid red;
-  }
+    }
   .header__title{
-    /*научиться учиться*/
+    position:absolute;
     display:flex;
-    margin-top:270px;
+    align-items:center;
     width: 730px;
     font-weight: 600;
     line-height: 96px;
     font-size: 102px;
     margin-left: 64px;
     z-index:1;
-    border:1px solid red;
-  }
+    }
   .header__subtitle{
-     /*какие современные и эффективные подходы к обучению вы можете использовать? ссылка*/
     position:absolute;
     width: 338px;
     bottom:30px;
@@ -49,10 +44,8 @@
     font-size: 18px;
     align-items:cetner;
     z-index:1;
-    border:1px solid red;
-  }
+   }
   .header__main-illustration{
-    /*картинка с мальчиком*/
     position:absolute;
     margin:0;
     right:0px;
@@ -60,35 +53,28 @@
     height:608px;
     bottom:0px;
     z-index:1;
-    border:1px solid red;
-        }
+    }
    .header__square-pic {
-      /*синий квадрат за мальчиком*/
     height: 568px;
     width: 568px;
     position:absolute;
     top:64px;
     right:0px;
     background-color: #2f80ed;
-    border:1px solid red;
   }
   .description{
-      /*блок проблемы учебы*/
     margin-top:100px;
     margin-bottom:100px;
     display:flex;
     justify-content: center;
-    border:1px solid red;
-  }
+   }
   .two-columns{
     display:flex;
     width:80%;
     min-width:784px;
     justify-content:space-between;
-    border:1px solid red;
-     }
+    }
   .two-columns__brief{
-    /*заголовок главные проблемы в обучении, слева, синий текст*/
    padding-top:o;
    line-height: 1.2;
    font-size: 18px;
@@ -98,7 +84,6 @@
    margin:0;
   }
   .two-columns__main-text{
-    /*блок для всего текста внутри*/
     display:flex;
     flex-direction:column;
     width:80%;
@@ -109,32 +94,27 @@
     padding:0;
   }
   .two-columns__paragraph1{
-     /*блок c длинным текстом о том, что по мнению автора никого не учат учиться*/
      padding-top:0;
      margin-top:0px;
      margin-bottom: 30px;
   }
   .two-columns__paragraph2{
-    /*блок c выводом*/
     margin-bottom:30px;
  }
   .two-columns__paragraph3{
-    /*блок c анонсом техник*/
      margin-bottom:0;
      padding-bottom:0;
  }
  .two-columns__span-accent{
-  line-height: 34px;
+    line-height: 34px;
     font-size: 24px;
     font-weight: 600;
  }
  .digits{
   margin-top:100px;
   margin-bottom:100px;
-  border:1px solid red;
  }
  .section-title{
-  /*заголовок таблицы Цифры и факты*/
   width:60%;
   margin:auto;
   padding:0;
@@ -142,10 +122,8 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  border:1px solid red;
  }
 .section-subtitle{
-    /*подзаголовок таблицы Цифры и факты, про учебу и мозг*/
   width:60%;
   margin:auto;
   margin-top:20px;
@@ -154,7 +132,6 @@
   font-size: 24px;
   font-weight: normal;
   text-align: center;
-  border:1px solid red;
 }
  .table{
   display:flex;
@@ -163,14 +140,12 @@
   padding-bottom:0;
   justify-content:space-between;
   flex-wrap: wrap;
-  border:1px solid red;
  }
  .table__cell{
   width:250px;
   margin-top:60px;
   margin-bottom:0;
   padding-top:0;
-  border:1px solid red;
  }
  .table__heading{
   line-height: 1.15;
@@ -186,13 +161,11 @@
   padding-top:20px;
  }
  .feynman{
-  /*общий блок фейнман*/
   position:relative;
   margin-top: 100px;
   padding:0;
   height: 890px;
   background-color: #f2f2f2;
-  border:1px solid red;
   z-index:-2;
 }
 .feynman__feynman_photo{
@@ -202,7 +175,6 @@
   height:637px;
   bottom:0px;
   z-index:-1;
-  border:1px solid red;
 }
 .feynman__title{
    /*заголовок Метод Фейнмана*/
@@ -213,17 +185,14 @@
   line-height:1.15;
   font-size:120px;
   font-weight:600;
-  border:1px solid red;
 }
 .feynman__subtitle{
-  /*подзаголовок Метод Фейнмана - выучить и не забыть*/
  text-align:center;
  margin:auto;
  margin-top:70px;
  line-height:51px;
  font-size:36px;
  font-weight:normal;
- border:1px solid red;
 }
 .feynman__link{
   position:absolute;
@@ -235,18 +204,15 @@
   color:#2f80ed;
 }
 .kaufman{
-       /* блок с принципами обучения от Кауфмана */
   position:relative;
   padding-top: 90px;
   padding-bottom: 90px;
-  border:1px solid red;
-  background-color: #000000;
+  background-color: #1f1f1f;
   overflow: hidden;
   color:white;
   z-index:-2;
    }
   .section-title_theme_dark{
-  /*заголовок таблицы Принципы обучения от Кауфмана*/
   width:60%;
   margin:auto;
   padding:0;
@@ -254,10 +220,8 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  border:1px solid red;
    }
  .section-subtitle_theme_dark{
-  /*подзаголовок таблицы Принципы обучения от Кауфмана*/
   width:60%;
   margin:auto;
   margin-top:20px;
@@ -266,24 +230,19 @@
   font-size: 24px;
   font-weight: normal;
   text-align: center;
-  border:1px solid red;
  }
 .table_theme_dark{
-   /*таблица c Принципами обучения от Кауфмана*/
   display:flex;
   margin:0 auto;
   width:1100px;
   padding-bottom:0;
   justify-content:space-between;
   flex-wrap: wrap;
-  border:1px solid red;
  }
    .table__cell_theme_dark { 
-    /* ячейка в блоке Кауфман с принципами обучения */
     width: 200px;
     margin-right: 0;
     margin-top: 80px;
-    border:1px solid red;
   }
   .table__heading_theme_dark{
     line-height: 1.15;
@@ -305,41 +264,33 @@
     top:0;
     width:877px;
     height:877px;
-    border:1px solid red;
     margin:0;
    }
    .footer{
-     /* общий блок футера*/
     min-height:350px;
     flex-basis:711px;
     display:flex;
-    background-color: #000000;
+    background-color:#1f1f1f;;
     color:white;
     padding-top:60px;
     padding-bottom:40px;
    }
    .footer__column{
-     /* блок со всей инфо внутри футера*/
      position:relative;
      display:flex;
      justify-content: space-between;
      width:90%;
      margin-right:auto;
      margin-left:auto;
-     border:1px solid red;
      }
     .footer__column_content_copyright{
-       /* блок инфо о логотипе и авторе*/
-      border:1px solid red;
       padding-right:200px;
      }
     .logo_place_footer{
-      display:flex;
-      border:1px solid red;      
+      display:flex; 
      }
      .footer__author{
       position:absolute;
-      border:1px solid red;  
       margin-bottom: 18px;
       margin-top:18px;
       bottom:0;
@@ -349,9 +300,7 @@
       font-weight: normal;
      }
      .footer__column_content_info{
-       /* о практикуме + главная, концепция, наставники)*/
       display:block;
-      border:1px solid red; 
       padding:0 auto;
      }
      .footer__column-heading{
@@ -361,36 +310,27 @@
       line-height: 30px;
       font-size: 18px;
       font-weight: 600; 
-
-      border:1px solid red;  
      }
      .footer__colomn-links{
-      /*блок с тремя линками - главная, концепция, наставники)*/
       display: table-row;
       padding-bottom:16px;
       padding-top:20px;
-      border:1px solid red; 
      }
      ul{
       list-style:none;
-      border:1px solid red;
       padding:0;
-     }
+      }
      .footer__column_content_social{
-        /* соцсети (youtube, VK, Tiktok)*/
       display:inline-block;
       padding:0;
-      border:1px solid red;
-    }
+     }
      .footer__social-icon{
-      border:1px solid red;
       margin-top:20px;
       margin-bottom: 16px;
       padding:0
       }
      .footer__column-link{
       color:white;
-      border:1px solid red;
       line-height: 30px;
       font-size: 18px;
       font-weight: normal;
