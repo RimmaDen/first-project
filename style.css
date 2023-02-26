@@ -335,4 +335,13 @@
       font-size: 18px;
       font-weight: normal;
       }
-    
+      img[src="../how-to-learn/images/youtube-icon.svg"] {
+        margin-right: 10px;
+      }
+      img[src="../how-to-learn/images/vk_color_white.svg"] {
+        margin-right: 10px;
+      }
+      img[src="../how-to-learn/images/tiktok-icon.svg"] {
+        margin-right: 10px;
+      }
+     
